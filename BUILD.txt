@@ -1,0 +1,101 @@
+# BUILD INSTRUCTIONS
+
+This document provides instructions for setting up and running the interpreter project.
+
+---
+
+## Prerequisites
+
+1. **Python**:
+   - Ensure Python 3.8 or higher is installed on your system.
+   - You can download Python from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+
+2. **Environment Setup**:
+   - Install any required dependencies (if applicable). This project does not require external libraries.
+
+---
+
+## Project Setup
+
+1. **Clone the Repository**:
+   - Clone the project repository to your local machine:
+     ```
+     git clone <repository-url>
+     cd interpreter_project
+     ```
+
+2. **Directory Structure**:
+   - Ensure the project directory contains the following structure:
+     ```
+     interpreter_project/
+     ├── src/
+     │   ├── [lexer.py](http://_vscodecontentref_/10)
+     │   ├── [parser.py](http://_vscodecontentref_/11)
+     │   ├── [interpreter.py](http://_vscodecontentref_/12)
+     │   ├── [tokens.py](http://_vscodecontentref_/13)
+     ├── tests/
+     │   ├── [test_stage1.py](http://_vscodecontentref_/14)
+     │   ├── [test_stage2.py](http://_vscodecontentref_/15)
+     │   ├── [test_stage3.py](http://_vscodecontentref_/16)
+     │   ├── [test_stage4.py](http://_vscodecontentref_/17)
+     │   ├── [test_stage5.py](http://_vscodecontentref_/18)
+     │   ├── [test_stage6.py](http://_vscodecontentref_/19)
+     │   ├── [test_stage7.py](http://_vscodecontentref_/20)
+     ├── examples/
+     │   ├── example1.txt
+     ├── [README.txt](http://_vscodecontentref_/21)
+     ├── [BUILD.txt](http://_vscodecontentref_/22)
+     ```
+
+---
+
+## Running the Interpreter
+
+1. **Run a Program**:
+   - To execute a program written in the custom language, use the following command:
+     ```
+     python [main.py](http://_vscodecontentref_/23) examples/example1.txt
+     ```
+
+2. **Interactive Mode**:
+   - If supported, you can run the interpreter in interactive mode:
+     ```
+     python [main.py](http://_vscodecontentref_/24)
+     ```
+
+---
+
+## Running Tests
+
+1. **Run All Tests**:
+   - To run all test cases, execute the test scripts in the `tests/` directory:
+     ```
+     python [test_stage1.py](http://_vscodecontentref_/25)
+     python [test_stage2.py](http://_vscodecontentref_/26)
+     python [test_stage3.py](http://_vscodecontentref_/27)
+     python [test_stage4.py](http://_vscodecontentref_/28)
+     python [test_stage5.py](http://_vscodecontentref_/29)
+     python [test_stage6.py](http://_vscodecontentref_/30)
+     python [test_stage7.py](http://_vscodecontentref_/31)
+     ```
+
+2. **Verify Results**:
+   - Each test script will output the results of the test cases, including any errors or mismatches.
+
+---
+
+## Troubleshooting
+
+1. **Common Issues**:
+   - **Syntax Errors**: Ensure the input program follows the correct syntax.
+   - **Runtime Errors**: Check for invalid operations (e.g., division by zero, out-of-range list indexing).
+
+2. **Debugging**:
+   - Use the debug output in the interpreter to trace the execution of the program.
+
+---
+
+## Additional Notes
+
+- For more details on the language syntax and features, refer to the `README.txt`.
+- For any issues or questions, contact the project maintainer.
